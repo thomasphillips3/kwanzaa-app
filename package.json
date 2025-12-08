@@ -1,0 +1,17 @@
+{
+  "name": "kwanzaa-app",
+  "version": "1.0.0",
+  "description": "A small, offline-first mobile app to help families celebrate **Kwanzaa**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "valdi": "^0.0.2"
+  }
+}

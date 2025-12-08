@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "mii23u26elpor",
+      "principleId": 5,
+      "principleName": "Nia (Purpose)",
+      "text": "My purpose is to build bridges between communities through shared understanding and mutual support.",
+      "author": "Community Member",
+      "userId": "OjoxY3VybC84",
+      "timestamp": "2025-11-27T23:20:21.486Z"
+    },
+    {
+      "id": "mii23pij4t2dj",
+      "principleId": 1,
+      "principleName": "Umoja (Unity)",
+      "text": "test test test",
+      "author": "Thomas",
+      "userId": "OjoxY3VybC84",
+      "timestamp": "2025-11-27T23:20:15.595Z"
+    }
+  ]
+}
