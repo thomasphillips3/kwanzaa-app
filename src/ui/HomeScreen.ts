@@ -7,9 +7,10 @@ import { Kinara } from "./components/Kinara";
 interface HomeScreenProps {
     onViewPrinciples: () => void;
     onViewPrinciple: (principleId: number) => void;
+    onViewCommunity?: () => void;
 }
 
-export function HomeScreen({ onViewPrinciples, onViewPrinciple }: HomeScreenProps) {
+export function HomeScreen({ onViewPrinciples, onViewPrinciple, onViewCommunity }: HomeScreenProps) {
     const today = new Date();
     const dayIndex = getKwanzaaDayIndex(today);
     const isKwanzaa = isInKwanzaaRange(today);
@@ -171,6 +172,17 @@ export function HomeScreen({ onViewPrinciples, onViewPrinciple }: HomeScreenProp
                 },
                 label({ style: buttonStyles.text }, "View All 7 Principles")
             ),
+            // Community board button
+            onViewCommunity ? button(
+                {
+                    onPress: onViewCommunity,
+                    style: {
+                        ...buttonStyles.primary,
+                        marginBottom: spacing.medium
+                    }
+                },
+                label({ style: buttonStyles.text }, "Community Board")
+            ) : null,
             // Quick info
             view(
                 {
