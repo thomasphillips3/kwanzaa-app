@@ -16,7 +16,9 @@ Since the app includes a Community Board with user-generated content, both store
 
 ### Required Legal Pages
 
-You must host these pages on your website and link them in the app stores:
+**DEPLOYED URLs:**
+- Privacy Policy: http://kwanzaa-pocket-guide-legal.s3-website-us-east-1.amazonaws.com/privacy.html
+- Terms of Service: http://kwanzaa-pocket-guide-legal.s3-website-us-east-1.amazonaws.com/terms.html
 
 1. **Privacy Policy** - Must disclose:
    - What data is collected (device-generated keypair, display name, posts)
